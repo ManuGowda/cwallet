@@ -21,8 +21,10 @@ defmodule Cwallet.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:dep_from_hexpm, "~> 0.3.0"},
-      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
+      {:base58check, github: "quanterall/base58check"},
+      {:seed_generator, github: "quanterall/seed_generator"},
+      {:libsecp256k1, [github: "mbrix/libsecp256k1", manager: :rebar]},
+      {:enacl, github: "aeternity/enacl", ref: "2f50ba6", override: true}
     ]
   end
 end

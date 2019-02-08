@@ -1,0 +1,6 @@
+%{
+  "base58check": {:git, "https://github.com/quanterall/base58check.git", "e012da96735852902df672d1543298cdf8f9664c", []},
+  "enacl": {:git, "https://github.com/aeternity/enacl.git", "2f50ba6289f2f2d9fef05d22a396c0bab4f64149", [ref: "2f50ba6"]},
+  "libsecp256k1": {:git, "https://github.com/mbrix/libsecp256k1.git", "671be513a6c19db47fbeea0ceefbf61421d196cc", []},
+  "seed_generator": {:git, "https://github.com/quanterall/seed_generator.git", "09a68dc315409dd1896802d9d9ba6ea111093baf", []},
+}

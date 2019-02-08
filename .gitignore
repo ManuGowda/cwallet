@@ -24,3 +24,7 @@ cwallet-*.tar
 
 # Ignore compile results ("mix compile")
 .elixir_ls/
+
+# Ignore IDEs
+.idea/
+.vscode/
